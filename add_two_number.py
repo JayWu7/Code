@@ -2,10 +2,7 @@ class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
-<<<<<<< HEAD
 
-=======
->>>>>>> origin
 
 class Solution:
     def addTwoNumbers(self, l1, l2):
@@ -13,9 +10,7 @@ class Solution:
         :type l1: ListNode
         :type l2: ListNode
         :rtype: ListNode
-<<<<<<< HEAD
         """
-
         head = ListNode(0)  # 0头节点
         currentNode = head
         valueOrCarry = 0  # 相加数字之和或进位
@@ -31,24 +26,3 @@ class Solution:
             currentNode.next = node
             currentNode = node
         return head.next
-=======
-       """
-
-
-
-
-# node1 = ListNode(3)
-# node2 = ListNode(4)
-# node3 = ListNode(5)
-#
-# node1.next=node2
-# node2.next=node3
-#
-# node = node1
-# while True:
-#     print node.val
-#     if node.next:
-#         node = node.next
-#     else:
-#         break
->>>>>>> origin

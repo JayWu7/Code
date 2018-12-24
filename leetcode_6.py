@@ -33,6 +33,3 @@ class Solution:
 
         return z_s
 
-
-solution = Solution()
-print(solution.convert('PAsd', 2))

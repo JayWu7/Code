@@ -30,10 +30,6 @@ class Solution:
                 continue
         return len(circles)
 
-
-s = Solution()
-print(s.findCircleNum([[1, 1, 0], [1, 1, 0], [0, 0, 1]]))
-
 #Excellent code
 # class Solution:
 #     def findCircleNum(self, M):

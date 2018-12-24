@@ -1,5 +1,5 @@
 class Solution:
-    def lengthOfLongestSubstring(self, s):
+    def lengthOfLongestSubstring(self, s): 
         str_dict = {}
         i = 0
         le = ''

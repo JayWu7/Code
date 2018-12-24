@@ -31,7 +31,3 @@ class Solution:
             return INT_MAX if number > 0 else INT_MIN
         else:
             return number
-
-
-so = Solution()
-print(so.myAtoi('-91283472332'))

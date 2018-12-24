@@ -1,5 +1,3 @@
-import profile
-
 
 class Solution:
     def checkInclusion(self, s1, s2):
@@ -59,7 +57,3 @@ class Solution:
 #                 return True
 #             cnt2[ord(s2[i - len(s1) + 1]) - ord('a')] -= 1
 #         return False
-s = Solution()
-s1 = "adc"
-s2 = "dcda"
-print(s.checkInclusion(s1, s2))

@@ -31,6 +31,3 @@ class Solution:
 
         gener_permu([i + 1 for i in range(n)], k)
         return num
-
-s = Solution()
-print(s.getPermutation(4,9))

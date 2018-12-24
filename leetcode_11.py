@@ -34,7 +34,3 @@ class Solution:
                 if i == index_stay:
                     return area
         return area
-
-S= Solution()
-
-print(S.maxArea([1,3]))

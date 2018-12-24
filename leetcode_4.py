@@ -15,7 +15,7 @@ class Solution:
         while True:
             i = int((imin + imax) / 2)
             j = int((m + n + 1) / 2) - i
-            if i < m and nums2[j - 1] > nums1[i]:
+            if i < m and nums2[j - 1] > nums1[i]: 
                 imin = i + 1;
             elif i > 0 and nums1[i - 1] > nums2[j]:
                 imax = i - 1;

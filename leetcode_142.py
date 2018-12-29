@@ -4,39 +4,34 @@ class ListNode(object):
         self.val = x
         self.next = None
 
+
 class Solution(object):
-    def detectCycle(self, head):
+    def hasCycle(self, head):
         """
         :type head: ListNode
-        :rtype: ListNode
+        :rtype: bool
+        思路快慢指针法，快指针每次走一步，慢指针每次走两步，如果有环，快慢指针一定会相遇，否则无环
         """
         fast = slow = head
         while fast and fast.next:
-            slow = slow.next
             fast = fast.next.next
-            if slow == fast:  #有环
-                fast = head
-                while fast != slow:
-                    fast = fast.next
-                    slow = slow.next
-                return slow
-        return None
+            slow = slow.next
+            if fast == slow:
+                return True
+        return False
 
 
-
-# class Solution(object):
-#     def detectCycle(self, head):
-#         """
-#         :type head: ListNode
-#         :rtype: ListNode
-#         """
-#         node_set, cur = set(), head
-#         while cur:
-#             if cur in node_set:
-#                 return cur
-#             else:
-#                 node_set.add(cur)
-#             cur = cur.next
-#         return cur
-
-
+# method 2
+class Solution(object):
+    def hasCycle(self, head):
+        """
+        :type head: ListNode
+        :rtype: bool
+        思路： 遍历一遍，对遍历过的节点做标记,将下一个节点指向头节点
+        """
+        cur = head
+        while cur and cur.next:
+            if cur.next is head:
+                return True
+            cur.next, cur = head, cur.next
+        return False

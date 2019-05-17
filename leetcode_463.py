@@ -21,5 +21,5 @@ class Solution(object):
                         decrease += 1
                     if j < le_r - 1 and grid[i][j + 1]:
                         decrease += 1
-        return total_island * 4 - decrease * 2
+        return total_island * 4 - decrease * 2 
 

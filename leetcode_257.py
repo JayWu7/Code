@@ -28,4 +28,4 @@ class Solution(object):
                     recursive(node.right, path)
 
         recursive(root, '')
-        return res
+        return res 

@@ -32,5 +32,5 @@ class Solution:
                         break
                 i += add_num
                 if i == index_stay:
-                    return area
+                    return area 
         return area

@@ -5,4 +5,4 @@ class Solution:
         if pattern.match(s) == None:
             return False
         else:
-            return True
+            return True 

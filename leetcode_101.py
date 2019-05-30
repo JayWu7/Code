@@ -9,7 +9,7 @@ class TreeNode(object):
 # method 1   思路繁杂 需要改进或者换一个思路
 class Solution(object):
     def isSymmetric(self, root):
-        """
+        """ 
         :type root: TreeNode
         :rtype: bool
         思路: 层次遍历二叉树，判断每一层是不是镜像对称

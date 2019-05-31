@@ -50,4 +50,4 @@ class Solution(object):
                     cur_list.append(node.right)
             node_list = cur_list
             reverse = not reverse
-        return val_list
+        return val_list 

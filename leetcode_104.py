@@ -40,7 +40,7 @@ class Solution(object):
         def dfs(node, depth):
             if depth > max_depth[0]:
                 max_depth[0] = depth
-            if node.left:
+            if node.left: 
                 dfs(node.left, depth + 1)
             if node.right:
                 dfs(node.right, depth + 1)

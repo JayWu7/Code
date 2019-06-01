@@ -6,7 +6,7 @@ class TreeNode:
         self.right = None
 
 
-class Solution:
+class Solution: 
     def buildTree(self, preorder, inorder):
         """
         :type preorder: List[int]

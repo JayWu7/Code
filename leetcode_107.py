@@ -12,7 +12,7 @@ class Solution:
         :rtype: List[List[int]]
         思路： 层次遍历，然后反转list后再返回
         """
-        if not root:
+        if not root: 
             return []
         val_list = []
         node_list = [root]

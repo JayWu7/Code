@@ -11,7 +11,7 @@ class Solution:
         """
         :type inorder: List[int]
         :type postorder: List[int]
-        :rtype: TreeNode
+        :rtype: TreeNode 
         """
         if not inorder:
             return None

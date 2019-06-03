@@ -5,7 +5,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
-
+ 
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
         # 层次遍历,队列

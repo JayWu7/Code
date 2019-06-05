@@ -20,4 +20,4 @@ class Solution:
             helper(root.left)
             helper(root.right)
 
-        helper(root)
+        helper(root) 

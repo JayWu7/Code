@@ -14,3 +14,4 @@ class Solution(object):
 
 s = Solution()
 print(s.minimumTotal([[1], [-5, -2], [3, 6, 1], [-1, 2, 4, -3]]))
+ 

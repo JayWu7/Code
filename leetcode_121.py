@@ -11,6 +11,4 @@ class Solution(object):
             min_price = min(price,min_price)
             result = max(result,price - min_price)
         return result
-s = Solution()
-s.maxProfit(
-[7,4,1,2])
+

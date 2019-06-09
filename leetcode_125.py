@@ -7,7 +7,7 @@ class Solution:
         """
         lower_s = s.lower()
         left, right = 0, len(s) - 1
-        while left < right:
+        while left < right: 
             if lower_s[left] == lower_s[right]:
                 left += 1
                 right -= 1

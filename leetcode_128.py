@@ -17,7 +17,7 @@ class Solution:
             else:
                 l, start, same = i - start + 1 - same, i + 1, 0
                 length = l if l > length else length
-
+ 
         return length if length > len(nums) - start else len(nums) - start
 
 

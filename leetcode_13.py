@@ -8,7 +8,7 @@ class Solution:
 
         while index < len(s):
             sp = s[index:index + 2]
-            if sp in specials:
+            if sp in specials: 
                 number += specials[sp]
                 index += 2
             else:

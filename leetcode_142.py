@@ -7,7 +7,7 @@ class ListNode(object):
 
 class Solution(object):
     def hasCycle(self, head):
-        """
+        """ 
         :type head: ListNode
         :rtype: bool
         思路快慢指针法，快指针每次走一步，慢指针每次走两步，如果有环，快慢指针一定会相遇，否则无环

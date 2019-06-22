@@ -5,7 +5,7 @@ class Solution:
         :rtype: str 
         """
 
-        length = len(strs)
+        length = len(strs) 
         if not length:
             return ''
         if length is 1:

@@ -9,7 +9,7 @@ class Solution(object):
     def postorderTraversal(self, root):
         """
         :type root: TreeNode
-        :rtype: List[int]
+        :rtype: List[int] 
         """
         node_list = []
         def recursive(node):

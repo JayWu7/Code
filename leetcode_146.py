@@ -8,7 +8,7 @@ class LRUCache:
         :type capacity: int
         """
         self.__order_dict = OrderedDict()
-        self.__capacity = capacity
+        self.__capacity = capacity 
 
     def get(self, key):
         """

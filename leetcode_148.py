@@ -10,7 +10,7 @@ class Solution(object):
         """
         :type head: ListNode
         :rtype: ListNode
-        """
+        """ 
         list_node, cur = [], head
         while cur:
             list_node.append(cur.val)

@@ -1,6 +1,6 @@
 # Code
 好好学习，天天刷题
- 
+Using python to solve the programming problems in leetcode!
  
 记录leetcode刷题历程
 

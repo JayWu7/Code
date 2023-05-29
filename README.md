@@ -10,4 +10,3 @@ Using python to solve the programming problems in leetcode!
 * 2.记录每道题的刷题思路，以及刷题时间
 * 3.commit时候，加上题目的名字以及相关知识点名称，如栈、队列、二分查找等
 
-4. test111

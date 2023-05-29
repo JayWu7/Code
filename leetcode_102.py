@@ -33,3 +33,5 @@ root.left = TreeNode(2)
 root.right = TreeNode(3)
 s = Solution()
 print(s.levelOrder(root)) 
+
+#test
